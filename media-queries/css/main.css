@@ -1,0 +1,47 @@
+/*SMART-PHONE*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.667rem;
+    line-height: 1.618;
+    /*line-height: 1.618rem;*/
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+
+/*TABLET*/
+@media all and (min-width: 600px) {
+    
+    body {
+        
+        font-size: 1rem;
+        /*line-height: calc(1.5rem * 1.618);*/
+    }
+    
+    nav ul li {
+        display: inline-block;
+    }
+}
+
+
+
+/*DESKTOP*/
+@media all and (min-width: 960px) {
+    
+    body {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}

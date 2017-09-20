@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test Document</title>
+        <style>
+            /*CSS SPECIFICITY*/
+            #active {
+                color: aqua;
+            }
+            
+            .nav-items {
+                color: pink;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            li {
+                border: 1px solid blue;
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+            }
+            
+            li a {
+                color: red;
+            }
+            
+            a {
+                color: green;
+            }
+            
+            a:hover {
+                text-decoration: none;
+            }
+            
+            
+            /*
+            CSS COLORS
+            */    
+            h1 {
+                
+                /*HEXADECIMAL COLOR CODE NOTATION*/
+                color: #FFFFFF;
+                background-color: #444;
+                padding: 10px;
+                
+                /*CSS FUNCTION rgb()*/
+                background-color: rgba(25, 120, 55, 0.2);
+                
+                /*CSS FUNCTION hsl()*/
+                background-color: hsla(120, 50%, 50%, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+        ul>li*3>a
+        -->
+        
+        <ul>
+            <li><a href="#" class="nav-items" id="active">home</a></li>
+            <li><a href="#" class="nav-items">about</a></li>
+            <li><a href="#" class="nav-items">contact</a></li>
+        </ul>
+        
+        <h1>Main Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum necessitatibus porro quaerat molestias ad itaque inventore tempore optio quibusdam, soluta quidem labore debitis excepturi! Aut fuga recusandae quo vel, vitae facere adipisci! Nisi ipsa vitae est a quibusdam deleniti soluta doloremque enim culpa harum dolore rerum optio praesentium id, omnis!</p>
+    </body>
+</html>
